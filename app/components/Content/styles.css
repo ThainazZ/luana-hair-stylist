@@ -1,0 +1,25 @@
+@import '../../styles/variables.css';
+
+.content-container {
+  display: flex;
+  margin-top: 10rem;
+  justify-content: space-between;
+  gap: 35rem;
+  width: 100%;
+  align-items: center;
+}
+
+.info-container {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.info-container p {
+    font-style: italic;
+    color: rgb(143, 29, 77);
+    background-clip: text;
+  font-size: 30px;
+  line-height: normal;
+  width: 80%;
+}
